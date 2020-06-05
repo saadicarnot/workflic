@@ -13,6 +13,26 @@ carea {
     position: relative;
 }
 
+
+.centered {
+    color: whitesmoke;
+    font-size: 75px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.custom_card {
+    background-color:#4a83d8; 
+    color: white
+}
+
+.custom_card2 {
+    background-color:#3575d3;
+    color: white
+}
+
 ul li {
     list-style: none;
 }
@@ -121,16 +141,16 @@ a {
 
 h2.main-title {
     text-align: center  ;
-    color: #316DC3;
+    color:  #000000;
     margin: 15px 0px;
 }
 
 .second-color {
-    color: #8dc63f;
+    color: rgb(221, 20, 20)
 }
 
 marquee.slide-marquee {
-    background-color: #316DC3;
+    background-color: #343a40;
     color: white;
     
 }
