@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+
+
+
+
+
+
 cbg {
     background-image: url(../images/workflix\ background.jpg);
     background-size: cover;
@@ -12,6 +18,9 @@ cbg {
 carea {
     position: relative;
 }
+
+
+
 
 .centered {
     color: whitesmoke;
