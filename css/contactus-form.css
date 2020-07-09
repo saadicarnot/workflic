@@ -1,0 +1,94 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.form h1{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.form{
+    position: fixed;
+    bottom: 60px;
+    right: -275px;
+    width: 270px;
+    height: auto;
+    background: #333333;
+    padding: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 99;
+}
+.form.active{
+    right: 0;
+}
+#msgBtn{
+    display: none;
+}
+.form .button{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: -45px;
+    height: 40px;
+    width: 40px;
+    background: #2e9cca;
+    cursor: pointer;
+    z-index: 99;
+}
+.form .button:active{
+    background: #f13131
+}
+.form .button:before{
+    content: '\f003';
+    color: #fff;
+    font-size: 20px; 
+    line-height: 40px;
+    font-family: fontAwesome;
+}
+.form .button.active{
+    background: none;
+    top: 0;
+    left: 230px;
+    
+}
+.form .button.active:before{
+    content: '\f00d';
+    transition: .5s;
+}
+.form .button.active:hover:before{
+    color: #f13131;
+}
+.form input,
+.form textarea{
+    width: 100%;
+    height: 36px; 
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+.form textarea{
+    height: 70px;
+    resize: none;
+}
+.form input[type="submit"]{
+    height: 50px;
+    background: #2e9cca;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.form input[type="submit"]:hover{
+    opacity: .5;
+}

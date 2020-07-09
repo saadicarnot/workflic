@@ -1,0 +1,37 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/*//////////TOPBTN//////////*/
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #2e9cca;
+    color: #fff;
+    font-size: 20px; 
+    line-height: 40px;
+    font-family: fontAwesome;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    transition: .1s;
+}
+#myBtn a{
+	color: #fff;
+	text-decoration: none;
+	transition: .5s;
+}
+#myBtn:active{
+    background: #f13131
+}
+#myBtn a:before{
+    content: '\f077'
+}
+#myBtn:hover a{
+	color: #fff;
+}
